@@ -1,4 +1,4 @@
-( #-*- coding: utf-8 -*-
+#-*- coding: utf-8 -*-
 import os
 
 def menu():
@@ -49,15 +49,13 @@ SADECE TERMUX İÇİN! 😁😁
 99. ÇIKIŞ
 ==========================================
 """)
-
 loop = True
-
 while loop:
     menu()
-    what = input("#: ")
+    what=input("pip3 install:")
     if what == "00":
         print("================================")
-        print("Bunlar yüklenecek: nmap, hydra, sqlmap, metasploit, ngrok, \nangryFuzzer, red_hawk, weeman, \nIPGeoLocation, cupp, instahack, TwitterSniper, Hash-Buster, D-TECT, routersploit and viSQL with one click.")
+        print("Bunlar yüklenecek: nmap, hydra, sqlmap, metasploit, ngrok, \nangryFuzzer, red_hawk, weeman, \n IPGeoLocation, cupp, instahack, TwitterSniper, Hash-Buster, D-TECT, routersploit Ve viSQL tek tıklamayla.")
         print("----------------")
         hm = input("[?] Devam etmek istiyor musun? (y/n): ")
         print("================================")
@@ -460,4 +458,3 @@ while loop:
         print("Sağlıklı günler dilerim 🤝.")
         print("Kod yazmak sabır işidir. Sabredersen yaratmanın zevkini alırsın.😈")
         break
-)
