@@ -52,10 +52,10 @@ SADECE TERMUX İÇİN! 😁😁
 loop = True
 while loop:
     menu()
-    what=input("pip3 install:")
+    what=input("#:")
     if what == "00":
         print("================================")
-        print("Bunlar yüklenecek: nmap, hydra, sqlmap, metasploit, ngrok, \nangryFuzzer, red_hawk, weeman, \n IPGeoLocation, cupp, instahack, TwitterSniper, Hash-Buster, D-TECT, routersploit Ve viSQL tek tıklamayla.")
+        print("nmap, hydra, sqlmap, metasploit, ngrok, \nangryFuzzer, red_hawk, weeman, \n IPGeoLocation, cupp, instahack, TwitterSniper, Hash-Buster, D-TECT, routersploit Ve viSQL tek tıklamayla.")
         print("----------------")
         hm = input("[?] Devam etmek istiyor musun? (y/n): ")
         print("================================")
