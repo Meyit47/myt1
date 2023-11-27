@@ -1,4 +1,4 @@
-#-*- coding: utf-8 -*-
+( #-*- coding: utf-8 -*-
 import os
 
 def menu():
@@ -460,3 +460,4 @@ while loop:
         print("Sağlıklı günler dilerim 🤝.")
         print("Kod yazmak sabır işidir. Sabredersen yaratmanın zevkini alırsın.😈")
         break
+)
